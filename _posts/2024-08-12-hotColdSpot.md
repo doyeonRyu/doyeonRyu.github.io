@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Hot spot & Cold spot: pythonÀÌ¿ëÇØ¼­"
+title: "Hot spot & Cold spot: pythonì´ìš©í•´ì„œ"
 categories: python
 tag: [python, openCv]
 toc: true
