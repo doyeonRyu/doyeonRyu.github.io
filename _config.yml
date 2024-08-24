@@ -19,7 +19,7 @@ locale                   : "ko-KR" # ko-KR
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "Dony's blog"
 title_separator          : "|"
-subtitle                 : "subtitle"
+subtitle                 : # "subtitle"
 name                     : "Doyeon Ryu"
 description              : "Hello! This is Doyeon's blog."
 url                      : "https://doyeonRyu.github.io"
