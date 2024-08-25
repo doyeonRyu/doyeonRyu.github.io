@@ -3,12 +3,12 @@
    ========================================================================== */
 
 /* Colors */
-$text-color: #000 !default;
+$text-color: #132e34 !default;
 $muted-text-color: $text-color !default;
-$primary-color: #ff0000 !default;
-$border-color: mix(#fff, $text-color, 75%) !default;
-$footer-background-color: #000 !default;
-$link-color: #0000ff !default;
+$primary-color: #154551 !default;
+$border-color: mix(#ee6293, $text-color, 75%) !default;
+$footer-background-color: #363336 !default;
+$link-color: #579aa5 !default;
 $masthead-link-color: $text-color !default;
 $masthead-link-color-hover: $text-color !default;
 $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
