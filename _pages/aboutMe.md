@@ -5,6 +5,7 @@ permalink: /about/
 author_profile: true
 sidebar_main: true
 ---
+<!-->배경 색 바꾸기<-->
 
 <div style="text-align: center;">
     <h1>Profile</h1>
