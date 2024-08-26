@@ -20,6 +20,8 @@ search: true
 
 
 ## 파이썬 코드   
+
+### 라이브러리, 데이터 불러오기   
 ```python
 # 라이브러리 불러오기
 import pandas as pd
@@ -31,6 +33,8 @@ import matplotlib.pyplot as plt
 sig = gpd.read_file('gis/sig/sig.shp', encoding="cp949")
 population = pd.read_csv('gis/행정안전부_지역별(법정동) 성별 연령별 주민등록 인구수_20240731.csv', encoding='cp949')
 ```
+
+### 데이터 전처리 과정   
 ```python
 # 데이터 전처리   
 
@@ -50,6 +54,7 @@ sig = sig.drop(columns=['시군구명'])
 # print(sig)
 ```
 
+### hotspot 시각화하기
 ```python
 # 데이터를 통해 시군구의 인구를 hotspot과 coldspot으로 시각화 하기
 sig.plot(column='SIG_CD', cmap='coolwarm')
@@ -61,7 +66,7 @@ plt.show()
 ![시군구인구hotspot](https://github.com/user-attachments/assets/f165f18e-8460-4371-9274-f7bd9dad5230)
 
 ## 마무리   
-시각화 과정에서 폰트 문제로 한글이 꺠지는 문제가 발생했다.    
+시각화 과정에서 폰트 문제로 한글이 깨지는 문제가 발생했다.    
 이는 다음에 다루어 보도록 하겠다.   
 
 인구 데이터를 새로 받아와서 시각화를 진행했지만 그냥 행정구역 데이터에서 column을 시군구 코드를 기준으로 시각화해도 결과가 같게 나온다.    
