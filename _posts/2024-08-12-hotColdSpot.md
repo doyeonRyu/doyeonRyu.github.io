@@ -30,6 +30,9 @@ import matplotlib.pyplot as plt
 # 데이터 불러오기
 sig = gpd.read_file('gis/sig/sig.shp', encoding="cp949")
 population = pd.read_csv('gis/행정안전부_지역별(법정동) 성별 연령별 주민등록 인구수_20240731.csv', encoding='cp949')
+```
+```python
+# 데이터 전처리   
 
 # 필요한 열만 남기고 나머지 drop
 population = population[['법정동코드', '시군구명', '읍면동명', '리명', '계']]
@@ -45,7 +48,9 @@ sig = sig.drop(columns=['시군구명'])
 
 # 결과 확인
 # print(sig)
+```
 
+```python
 # 데이터를 통해 시군구의 인구를 hotspot과 coldspot으로 시각화 하기
 sig.plot(column='SIG_CD', cmap='coolwarm')
 plt.title("시군구 Hotspot & Coldspot")
