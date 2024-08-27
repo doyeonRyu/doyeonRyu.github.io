@@ -9,7 +9,7 @@ sidebar:
     nav: "docs"
 search: true
 ---
-
+> **python matplotlib 사용할 때 한글 폰트 깨짐 해결하기**   
 > python에서 matplotlib을 사용해 그래프를 그리는 과정에서 한글로 작성한 부분이 네모 박스로 나타나는 것을 해결하고자 하였다.   
 
 ## 1. 기존 컴퓨터에 깔려 있는 폰트 활용하기   
