@@ -2,7 +2,7 @@
 layout: single
 title: "Hot spot & Cold spot: 대한민국 시군구별 인구 시각화"
 categories: python
-tag: [python]
+tag: [python, gis]
 toc: true
 author_profile: false
 sidebar:
