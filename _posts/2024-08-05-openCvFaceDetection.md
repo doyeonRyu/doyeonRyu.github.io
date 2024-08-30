@@ -11,12 +11,14 @@ search: true
 ---
 
 ## 개요   
->> 1. opencv를 통해 노트북의 카메라를 열어 사람을 인식   
->> 2. 사람 수를 인식해 화면에 사람 수 출력   
->> 3. 웹캠 화면을 비디오로 저장   
->> 4. ['Frame', 'Timestamp', 'face_count']의 형태의 데이터로 csv 파일로 저장   
->> \* 사람 얼굴을 인식하기 위해 Haar Cascade Classifier를 사용함!   
->> https://github.com/opencv/opencv/tree/master/data/haarcascades   
+> 1. opencv를 통해 노트북의 카메라를 열어 사람을 인식   
+> 2. 사람 수를 인식해 화면에 사람 수 출력   
+> 3. 웹캠 화면을 비디오로 저장   
+> 4. ['Frame', 'Timestamp', 'face_count']의 형태의 데이터로 csv 파일로 저장   
+
+
+> \* 사람 얼굴을 인식하기 위해 Haar Cascade Classifier를 사용함!   
+> https://github.com/opencv/opencv/tree/master/data/haarcascades   
 
 ---   
 
