@@ -57,3 +57,28 @@ MySQL의 mydb라는 이름의 데이터베이스에 연결하였음.
 
 이제 try 문 안에 원하는 쿼리문을 넣어 출력할 수 있게 된다.   
 ![image](https://github.com/user-attachments/assets/f84091da-2616-47a1-a7e5-5f91a25b0a83)
+
+```java
+package mydb; // 패키지명 변경
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+public class JDBConnection {
+    // 데이터베이스 URL, 사용자명, 비밀번호
+    private static final String URL = "jdbc:mysql://localhost:3306/mydb"; // 사용자 URL
+    private static final String USER = "root"; // 사용자명
+    private static final String PASSWORD = "1234"; // 비밀번호
+
+    public static void main(String[] args) {
+        try (Connection conn = DriverManager.getConnection(URL, USER, PASSWORD)) {
+            System.out.println("MySQL 데이터베이스에 성공적으로 연결되었습니다.");
+        } catch (SQLException e) {
+            System.out.println("데이터베이스 연결 실패");
+            e.printStackTrace();
+        }
+    }
+}
+
+```
