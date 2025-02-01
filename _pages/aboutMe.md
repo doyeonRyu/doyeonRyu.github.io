@@ -1,37 +1,24 @@
 ---
-title: "About me"
-layout: about
+title: "Profile"
+layout: single
 permalink: /about/
 author_profile: true
 sidebar_main: true
 ---
 
-<div style="text-align: center;">
-    <h1>Profile</h1>
-</div>
+---
 
----   
+![ryudoyeon](image_url) <!-- 이미지 URL을 넣어주세요 -->
 
-<div style="text-align: center;">
-    <img src="" alt="ryudoyeon" style="width: 200px; height: 200px;">
-</div>
+<small>  
+**Name:** Doyeon Ryu  
+**University:** Gachon University  
+**Major:** Smartcity & AI  
+**Language:** Python, C  
+**Interests:** Smartcity, AI, Energy  
+</small>  
 
-<div style="text-align: center;">
-    <p>Name: Doyeon Ryu</p>  
-    <p>University: Gachon university</p>  
-    <p>Major: smartcity & AI</p>  
-    <p>Language: python, C</p>  
-    <p>Interests: smartcity, AI, energy</p>  
-</div>
-
-<div style="text-align: center;">
-    <h2>Contact</h2>
-</div>
-
----   
-
-<div style="text-align: center;">
-    <p>Github: <a href="https://github.com/doyeonRyu">https://github.com/doyeonRyu</a></p>  
-    <p>Blog: <a href="https://doyeonryu.github.io/">https://doyeonryu.github.io/</a></p>  
-    <p>Email: doyeonryu.dyr@gmail.com</p>  
-</div>
+## <small>Contact</small>  
+- **<small>Github:</small>** [<small>https://github.com/doyeonRyu</small>](https://github.com/doyeonRyu)  
+- **<small>Blog:</small>** [<small>https://doyeonryu.github.io/</small>](https://doyeonryu.github.io/)  
+- **<small>Email:</small>** <small>doyeonryu.dyr@gmail.com</small>  
