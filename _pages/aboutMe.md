@@ -5,7 +5,6 @@ permalink: /about/
 author_profile: true
 sidebar_main: true
 ---
-<!-->배경 색 바꾸기<-->
 
 <div style="text-align: center;">
     <h1>Profile</h1>
@@ -21,8 +20,8 @@ sidebar_main: true
     <p>Name: Doyeon Ryu</p>  
     <p>University: Gachon university</p>  
     <p>Major: smartcity & AI</p>  
-    <p>Language: python, C, java</p>  
-    <p>Interests: smartcity, AI, Data science</p>  
+    <p>Language: python, C</p>  
+    <p>Interests: smartcity, AI, energy</p>  
 </div>
 
 <div style="text-align: center;">

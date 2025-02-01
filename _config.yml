@@ -13,7 +13,7 @@ subtitle                 : # "subtitle"
 name                     : "Doyeon Ryu"
 description              : "Hello! This is Doyeon's blog."
 url                      : "https://doyeonRyu.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+baseurl                  : # "/blog"
 repository               : "https://github.com/doyeonryu/doyeonryu.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -198,7 +198,7 @@ sass:
 
 
 # Outputting
-permalink: /:categories/:title/
+permalink: /blog/:categories/:title/
 timezone: Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
